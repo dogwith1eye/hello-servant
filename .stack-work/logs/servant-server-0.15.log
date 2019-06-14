@@ -1,0 +1,34 @@
+[1 of 2] Compiling Main             ( /tmp/stack307/servant-server-0.15/Setup.hs, /tmp/stack307/servant-server-0.15/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /root/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack307/servant-server-0.15/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/setup/StackSetupShim.o )
+Linking /tmp/stack307/servant-server-0.15/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/setup/setup ...
+Configuring servant-server-0.15...
+Preprocessing library for servant-server-0.15..
+Building library for servant-server-0.15..
+[ 1 of 13] Compiling Servant.Server.Internal.Context ( src/Servant/Server/Internal/Context.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/Internal/Context.o )
+[ 2 of 13] Compiling Servant.Server.Internal.ServantErr ( src/Servant/Server/Internal/ServantErr.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/Internal/ServantErr.o )
+[ 3 of 13] Compiling Servant.Server.Internal.Handler ( src/Servant/Server/Internal/Handler.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/Internal/Handler.o )
+[ 4 of 13] Compiling Servant.Server.Internal.RoutingApplication ( src/Servant/Server/Internal/RoutingApplication.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/Internal/RoutingApplication.o )
+[ 5 of 13] Compiling Servant.Server.Internal.Router ( src/Servant/Server/Internal/Router.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/Internal/Router.o )
+[ 6 of 13] Compiling Servant.Server.Internal.BasicAuth ( src/Servant/Server/Internal/BasicAuth.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/Internal/BasicAuth.o )
+[ 7 of 13] Compiling Servant.Server.Internal ( src/Servant/Server/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/Internal.o )
+
+[;1msrc/Servant/Server/Internal.hs:630:24: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of `requestBody'
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m630 |[0m[0m             let body = [;1m[35mrequestBody[0m[0m req
+[;1m[34m    |[0m[0m[;1m[35m                        ^^^^^^^^^^^[0m[0m
+[0m[0m[0m[ 8 of 13] Compiling Servant.Server   ( src/Servant/Server.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server.o )
+[ 9 of 13] Compiling Servant.Server.Generic ( src/Servant/Server/Generic.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/Generic.o )
+[10 of 13] Compiling Servant.Server.StaticFiles ( src/Servant/Server/StaticFiles.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/StaticFiles.o )
+[11 of 13] Compiling Servant          ( src/Servant.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant.o )
+[12 of 13] Compiling Servant.Server.Experimental.Auth ( src/Servant/Server/Experimental/Auth.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Server/Experimental/Auth.o )
+[13 of 13] Compiling Servant.Utils.StaticFiles ( src/Servant/Utils/StaticFiles.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Servant/Utils/StaticFiles.o )
+Preprocessing executable 'greet' for servant-server-0.15..
+Building executable 'greet' for servant-server-0.15..
+[1 of 1] Compiling Main             ( example/greet.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/greet/greet-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/greet/greet ...
+Installing library in /root/.stack/snapshots/x86_64-linux/lts-13.23/8.6.5/lib/x86_64-linux-ghc-8.6.5/servant-server-0.15-AV2XcxgPBbX2zACmZizIjq
+Installing executable greet in /root/.stack/snapshots/x86_64-linux/lts-13.23/8.6.5/bin
+Registering library for servant-server-0.15..

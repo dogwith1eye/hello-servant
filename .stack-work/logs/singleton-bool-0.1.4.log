@@ -1,0 +1,6 @@
+Configuring singleton-bool-0.1.4...
+Preprocessing library for singleton-bool-0.1.4..
+Building library for singleton-bool-0.1.4..
+[1 of 1] Compiling Data.Singletons.Bool ( src/Data/Singletons/Bool.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Data/Singletons/Bool.o )
+Installing library in /root/.stack/snapshots/x86_64-linux/lts-13.23/8.6.5/lib/x86_64-linux-ghc-8.6.5/singleton-bool-0.1.4-BswWCJ6C1foFLbVlo6nj0a
+Registering library for singleton-bool-0.1.4..
